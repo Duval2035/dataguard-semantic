@@ -1,0 +1,99 @@
+/* Mise en page globale */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #1a1a1a;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* En-tête */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f2f5;
+}
+
+header h1 {
+  color: #2c3e50;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #7f8c8d;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/* Zone de saisie */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+textarea {
+  width: 100%;
+  height: 180px;
+  padding: 15px;
+  border: 2px solid #e0e6ed;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+  box-sizing: border-box;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+button {
+  padding: 14px 28px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  align-self: flex-start;
+}
+
+button:hover {
+  background-color: #1f618d;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Zone des résultats */
+.results-section h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.placeholder {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  color: #95a5a6;
+  border: 2px dashed #bdc3c7;
+  font-weight: 500;
+}
